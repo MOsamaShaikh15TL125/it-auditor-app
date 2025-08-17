@@ -1,0 +1,40 @@
+# Environment / secrets
+.env
+.mailusr
+*.key
+*.pem
+CLOUD_ENC_KEY
+
+# Local DB / backups / logs
+it_audit_bot.db
+*.db
+*.db-journal
+backups/
+*.sql
+*.sqlite
+it_audit_bot.log
+*.log
+
+# Python
+venv/
+.env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+pip-wheel-metadata/
+build/
+dist/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Other
+*.egg-info/
+.coverage
+htmlcov/

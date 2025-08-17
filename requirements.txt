@@ -7,4 +7,3 @@ matplotlib==3.10.5
 pytz==2025.2
 pyotp==2.9.0
 requests==2.32.4
-

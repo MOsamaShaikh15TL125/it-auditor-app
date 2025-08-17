@@ -1,0 +1,10 @@
+# Local / CI dev tools (pin exact versions)
+pre-commit==4.3.0
+ruff==0.12.9
+bandit==1.8.6
+detect-secrets==1.5.0
+pip-audit==2.9.0
+mypy==1.17.1
+pyotp==2.9.0
+pytest==8.4.1
+safety==3.5.2
