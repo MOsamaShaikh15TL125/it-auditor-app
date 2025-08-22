@@ -1,4 +1,9 @@
-# 🔒 IT Auditor App: Automated Compliance & Operations Oversight 
+# IT Auditor App – Python Telegram Bot for Compliance & Power BI Reporting  
+
+Automated IT audit & compliance oversight app with **Telegram bot integration**, **Power BI dashboards**, and **real-time engineer activity monitoring**.
+
+MIT Licensed and supports **NIST, GDPR, HIPAA, ISO 27001, Essential Eight, SAMA, QCB** and more for Enterprise and Government teams.  
+
 [![MIT License](https://img.shields.io/badge/License-MIT-green?logo=mit&logoColor=white)](LICENSE) 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-purple?logo=python&logoColor=white)](https://www.python.org/) 
 [![Telegram Bot](https://img.shields.io/badge/Integration-Telegram%20Bot-blue?logo=telegram&logoColor=white)](https://core.telegram.org/bots)
@@ -9,6 +14,7 @@
 [![RHEL](https://img.shields.io/badge/Red_Hat_RHEL-8.8-%238B0000?logo=redhat&logoColor=white)](https://www.redhat.com/)
 [![Parrot OS](https://img.shields.io/badge/Parrot_OS-6.4-%23008080?logo=parrot&logoColor=white)](https://www.parrotsec.org/)
 [![Windows](https://img.shields.io/badge/Windows-Server-cyan?logo=windows&logoColor=white)](https://www.microsoft.com/windows)
+
 
 > **Enterprise-grade audit automation telegram-bot app** for cybersecurity compliance and IT operations team management and monitoring. Aligns with global regulatory frameworks while providing real-time oversight of engineer activities.
 
