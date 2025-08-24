@@ -1,8 +1,8 @@
-# IT Auditor App – Python Telegram Bot for Compliance & Power BI Reporting  
+# 🔒 IT Auditor App – Open Source Python Telegram Bot for Compliance & Power BI Reporting
 
-Automated IT audit & compliance oversight app with **Telegram bot integration**, **Power BI dashboards**, and **real-time engineer activity monitoring**.
+Automated IT audit & compliance oversight tool with **Telegram bot integration**, **Power BI dashboards**, and **real-time engineer activity monitoring**.
 
-MIT Licensed and supports **NIST, GDPR, HIPAA, ISO 27001, Essential Eight, SAMA, QCB** and more for Enterprise and Government teams.  
+**MIT Licensed**, supporting **NIST, GDPR, HIPAA, ISO 27001, Essential Eight, SAMA, QCB**, designed for **Enterprise, Government, and Research teams**.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green?logo=mit&logoColor=white)](LICENSE) 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-purple?logo=python&logoColor=white)](https://www.python.org/) 
@@ -15,45 +15,56 @@ MIT Licensed and supports **NIST, GDPR, HIPAA, ISO 27001, Essential Eight, SAMA,
 [![Parrot OS](https://img.shields.io/badge/Parrot_OS-6.4-%23008080?logo=parrot&logoColor=white)](https://www.parrotsec.org/)
 [![Windows](https://img.shields.io/badge/Windows-Server-cyan?logo=windows&logoColor=white)](https://www.microsoft.com/windows)
 
+---
 
-> **Enterprise-grade audit automation telegram-bot app** for cybersecurity compliance and IT operations team management and monitoring. Aligns with global regulatory frameworks while providing real-time oversight of engineer activities.
+> **Enterprise-grade audit automation Telegram bot** for cybersecurity compliance and IT operations team management. Aligns with global regulatory frameworks while providing real-time oversight of engineer activities.
+
+---
 
 ## 🌍 Global Compliance Coverage
-| Region | Supported Frameworks | Target Markets |
-|--------|----------------------|----------------|
-| **🇺🇸 North America** | NIST CSF, CMMC, HIPAA, SOX | Fortune 500, Tech Giants |
-| **🇪🇺 EU/UK** | GDPR, ENISA, ISO 27001 | Government, Finance, Healthcare |
+
+| Region | Supported Frameworks | Target Sectors |
+|--------|---------------------|----------------|
+| **🇺🇸 North America** | NIST CSF, CMMC, HIPAA, SOX | Fortune 500, Tech Giants, Government |
+| **🇪🇺 EU / UK** | GDPR, ENISA, ISO 27001 | Finance, Healthcare, Government |
 | **🇦🇺 Australia** | Essential Eight, ISM, PSPF | Critical Infrastructure, Telcos |
-| **🌏 GCC** | NESA, SAMA, QCB | Oil/Gas, Banking, Government, Telcos, Construction |
+| **🌏 GCC** | NESA, SAMA, QCB | Banking, Oil & Gas, Government, Telcos, Construction |
+
+---
 
 ## ✨ Key Features
-| Feature | Benefit | Tech Implementation |
-|---------|---------|---------------------|
-| **🔐 Automated Compliance Audits** | Real-time framework gap analysis | PostgreSQL + Custom Rule Engine |
+
+| Feature | Benefit | Technology |
+|---------|---------|------------|
+| **🔐 Automated Compliance Audits** | Real-time compliance gap analysis | Python + PostgreSQL + Custom Rule Engine |
 | **👥 Engineer Activity Monitoring** | Shift adherence & punctuality tracking | Telegram Bot + Time Logging |
-| **📊 KPI Visualization** | Executive-ready risk dashboards | Pandas/Matplotlib + PowerBI Snapshots |
-| **🔔 Audit Trail System** | Tamper-proof operation records | Encrypted .log + Blockchain-style DB |
-| **⚙️ Enterprise Integration** | Ready for SOC/SIEM pipelines | Python API + .env Configuration |
+| **📊 KPI Visualization** | Executive-ready dashboards | Pandas / Matplotlib + Power BI Snapshots |
+| **🔔 Tamper-proof Audit Trail** | Immutable records for SOC/SIEM | Encrypted logs + Blockchain-style DB |
+| **⚙️ Enterprise Integration** | SOC/SIEM pipelines ready | Python API + .env Configuration |
+
+---
 
 ## 🚀 Getting Started
+
 ```bash
 # 1. Clone repository
 git clone https://github.com/MOsamaShaikh15TL125/it-auditor-app.git
 
-# 2. Configure environment (Linux/macOS)
+# 2. Setup virtual environment
 python3 -m venv .venv && source .venv/bin/activate
 pip3 install -r requirements.txt
 
-# 3. Configure secrets (create .env file)
-echo "TELEGRAM_TOKEN='your_own_bot_token_via_@botFather'" >> .env
-echo "DATABASE_URL='postgresql://your_own_user:pass@localhost:5432/audit_db'" >> .env
-echo "POWERBI_CREDS='encrypted://your_own_power-bi_creds'" >> .env
+# 3. Configure environment variables (.env)
+echo "TELEGRAM_TOKEN='your_bot_token_from_botfather'" >> .env
+echo "DATABASE_URL='postgresql://user:pass@localhost:5432/audit_db'" >> .env
+echo "POWERBI_CREDS='encrypted://your_powerbi_creds'" >> .env
 
 # 4. Initialize database
 python3 db_init.py
 
-# 5. Launch application
+# 5. Run application
 python3 it_auditor_app.py
+
 ```
 
 ## 🛠️ Tech Architecture
